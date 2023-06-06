@@ -14,7 +14,7 @@ const CountryPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${process.env.REACT_APP_API_BASE_URL}/country`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_BASE_URL}country`, {
           params: {
             country: country,
           },

@@ -16,7 +16,7 @@ const CategoryPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`${process.env.REACT_APP_API_BASE_URL}/category`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_BASE_URL}category`, {
           params: {
             category: categoryId,
           },
