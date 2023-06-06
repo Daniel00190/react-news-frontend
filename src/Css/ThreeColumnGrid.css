@@ -1,0 +1,19 @@
+/* ThreeColumnGrid.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 90rem;
+    margin: auto;
+}
+
+
+  
+  @media (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      
+    }
+  }
+  

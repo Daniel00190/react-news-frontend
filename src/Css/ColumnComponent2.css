@@ -1,0 +1,28 @@
+.column2 {
+    padding: 1rem;
+  }
+  
+  .medium-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .title {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .headlines {
+    margin-top: 1rem;
+  }
+  
+  .headline hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+  }
+  
+  .headline p {
+    margin-bottom: 0.5rem;
+  }
+  

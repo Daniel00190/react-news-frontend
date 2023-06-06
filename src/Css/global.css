@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+:root {
+    --main-color: #D8DDEF;
+    --secondary-color: #A0A4B8;
+    --accent-color: #7293A0;
+    --dark-color: #353746;
+  }
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+a {
+  color: inherit;       /* Make the color of the links the same as the surrounding text */
+  text-decoration: none; /* Remove the underline */
+}
+
+img{
+  border-radius: 5px;
+}
+
+input{
+  border-radius: 5px 0 0 5px;
+  border: none; 
+}
