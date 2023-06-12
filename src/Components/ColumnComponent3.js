@@ -30,6 +30,7 @@ const ColumnComponent3 = ({newsData }) => {
           src={newsItemWithImage.image_url}
           alt={newsItemWithImage.title}
           style={{ paddingTop: "15px" }}
+          onerror="this.onerror=null; this.src='placeholder_image.jpg';" 
         />
         <h3 className="title">{newsItemWithImage.title}</h3>
       </a>

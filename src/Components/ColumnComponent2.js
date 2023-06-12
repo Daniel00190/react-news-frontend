@@ -16,7 +16,7 @@ const ColumnComponent2 = ({ newsData }) => {
   return (
     <div className="column2">
       <a href={newsItemWithImage.link} target="_blank" rel="noreferrer">
-        <img className="medium-image" src={newsItemWithImage.image_url} alt={newsItemWithImage.title} />
+        <img className="medium-image" src={newsItemWithImage.image_url} alt={newsItemWithImage.title} onerror="this.onerror=null; this.src='placeholder_image.jpg';"/>
         <h3 className="title">{newsItemWithImage.title}</h3>
       </a>
       <div className="headlines">
